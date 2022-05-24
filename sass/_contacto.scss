@@ -1,0 +1,58 @@
+.m-contacto{
+    .v-titulo{
+        font-size: 30px;
+        text-align: center;
+        font-weight: 700;
+        color: #056fa4;
+        padding-bottom: 1rem;
+        padding-top: 3rem;
+    }    
+    .contacto{
+        .maps{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .zarate{
+                margin: 20px;
+            }
+            .oficina{
+                margin: 20px;
+            }
+        }
+    }
+
+    .social{
+        .list{
+            display: flex;
+            justify-content: center;
+            .whatsapp{
+                margin-left: 1rem;
+            }
+            .phone{
+                margin-left: 1rem;
+            }
+            .mail{
+                margin-left: 1rem;
+            }
+            li{
+                display: flex;
+                align-items: center;
+                a{
+                    padding-left: 5px;
+                    color: black;
+                    font-weight: 500;
+                }
+                a:hover{
+                    color: #02547d;
+                }
+                i{
+                    color: #056fa4;
+                    padding-left: 1rem;
+                }
+                i:hover{
+                   color: #02547d; 
+                }
+            }
+        }
+    }
+}

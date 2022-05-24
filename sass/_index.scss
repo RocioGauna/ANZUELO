@@ -1,0 +1,100 @@
+.m-index{
+    // Titulo de valores 2022
+    .v-titulo{
+        font-size: 30px;
+        text-align: center;
+        font-weight: 700;
+        color: #056fa4;
+        padding-bottom: 1rem;
+    }    
+    // Acordeon de textos 
+    .accordion{
+        margin: 30px;
+        .accordion-item{
+            border-color: #025782;
+            .accordion-button{
+                font-weight: 600;
+                font-size: 20px;
+            }
+            .accordion-button:not(.collapsed){
+                color: white;
+                background-color: #056fa4;
+                border-color: #025782;
+            }
+            .accordion-collapse{
+                background-color: #d9ecf6;
+            }
+        }
+    }
+
+    // Comision directiva
+    .m-c{
+        background-color: #056fa4;
+        color: white;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        // Titulo
+        .v-titulo{
+            font-size: 30px;
+            text-align: center;
+            font-weight: 700;
+            padding-top: 1rem;
+            color: #ffffff;
+        }
+        // Listas
+        .comision{
+            .c-div-p{
+                text-align: center;
+                margin-bottom: 1rem;
+            }
+            .c-div-s{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                .c-2, .c-3, .c-4{
+                    display: flex;
+                    flex-direction: column;
+                    border-right: 1px solid rgb(255, 255, 255);
+                    height: 10rem;
+                    padding: 1rem;
+                    h2{
+                        font-size: 20px;
+                    }
+                }
+                .c-5{
+                    padding: 1rem;
+                    h2{
+                        font-size: 20px;
+                    }
+                }
+            }  
+        }
+    }
+
+    .card{
+        .card-header{
+            background-color: #d9ecf6;
+            border-bottom: 1px solid #91d5f7;
+            h2{
+                padding-top: 10px;
+            }
+        }
+        .card-body{
+            background-color: #d9ecf6;
+            .card-text{
+                p{
+                    text-align: center;
+                }
+            }
+            h4{
+                padding-top: 10px;
+            }
+            .btn{
+                background-color: #056fa4;
+            }
+            .btn:hover{
+                background-color: #025782;
+            }
+        }
+    }
+}

@@ -1,0 +1,42 @@
+.footer-16371 {
+	padding: 2rem;
+	border-top: 1px solid black;
+
+	.footer-site-logo {
+		text-align: center;
+		font-size: 2rem;
+		font-weight: 900;
+		a {
+			color: #056fa4;
+		}
+	}
+
+	.nav-links {
+		padding: 0;
+		margin: 0;
+		li {
+			display: inline-block;
+			a {
+				padding: 10px;
+				color: black;
+				&:hover {
+					color: #056fa4;
+                    font-weight: 600;
+					border-bottom: 2px solid #056fa4;
+				}
+			}
+		}
+	}
+	.social {
+		h3{
+			font-weight: bold;
+			font-size: 18px;
+			color: black;
+		}
+		ul {
+			li {
+				display: inline-block;
+			}
+		}
+	}
+}

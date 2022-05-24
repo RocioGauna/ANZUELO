@@ -1,0 +1,23 @@
+.navbar{
+    background-color: white;
+    border-bottom: 1px solid black;
+    .container-fluid{
+        .navbar-brand{
+            img{
+                margin-left: 20px;
+            }
+        }
+        .collapse{
+            .navbar-nav{
+                a{
+                    font-size: 20px;
+                    font-weight: 500;
+                    color: #056fa4;
+                }  
+                a:hover{
+                    border-bottom: 2px solid #056fa4;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,28 @@
+*{
+    margin: 0%; 
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;;
+}
+
+dl, ol, ul{
+    padding: 0;
+    margin: 0;
+    li{
+        list-style: none;
+        a{
+            text-decoration: none;
+        }
+    }
+}
+
+@import "contacto";
+@import "index";
+@import "nosotros";
+@import "navbar";
+@import "footer";
+@import "comunicados";
+@import "icons";
+@import "index-mq";
+@import "contacto-mq";
+@import "nosotros-mq";

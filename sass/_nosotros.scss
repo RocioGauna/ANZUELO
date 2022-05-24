@@ -1,0 +1,50 @@
+.m-nosotros{
+    .card{
+        background-color: #056fa4;
+        .col-md-8{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .card-body{
+                color: white;
+                h5{
+                    font-size: 40px;
+                }
+                p{
+                    font-size: 22px;
+                }
+            }
+        }
+    }
+
+    .imagenes{
+        .v-titulo{
+            font-size: 30px;
+            text-align: center;
+            font-weight: 700;
+            color: #000000;
+            padding-top: 3rem;
+            padding-bottom: 1rem;
+        } 
+        .gallery{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            .slide{
+                margin: 2px;
+                .image{
+                    width: 500px;
+                    height: 500px;
+                    object-fit: cover;
+                }
+            }
+
+        }
+    }
+
+    
+}
+
+
+
+

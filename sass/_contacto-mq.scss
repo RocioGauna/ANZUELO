@@ -1,0 +1,23 @@
+@media (max-width: 472px) and (min-width: 300px){
+    .m-contacto{
+        .contacto{
+            .maps{
+                display: flex;
+                flex-direction: column;
+                .zarate{
+                    text-align: center;
+                }
+                .oficina{
+                    text-align: center;
+                }
+            }
+        }
+
+        .social{
+            .list{
+                display: flex;
+                flex-direction: column;
+            }
+        }
+    }
+}

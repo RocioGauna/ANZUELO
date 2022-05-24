@@ -1,0 +1,16 @@
+.m-comunicados{
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    .card{
+        width: 500px;
+        .card-header{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #056fa4;
+            color: white;
+        }
+    }
+}
